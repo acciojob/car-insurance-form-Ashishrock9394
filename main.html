@@ -18,26 +18,26 @@
                 <input type="email" id="email" required>
             </label><br>
             <label for="gender">Gender: 
-                <input type="radio" name="male" id="male">Male
-                <input type="radio" name="Female" id="female">Female
+                <input type="radio" name="gender" id="male" required>Male
+                <input type="radio" name="gender" id="female">Female
             </label><br>
             <label for="cars">Cars: 
-                <select name="cars" id="cars">
+                <select name="cars" id="cars" required>
                     <option value="bmw">BMW</option>
                     <option value="audi">Audi</option>
                     <option value="mercedes">Mercedes</option>
                 </select>
             </label><br>
-            <label for="caragre">Car Age: 
-                <input type="number" name="carage" id="carage">
+            <label for="carage">Car Age: 
+                <input type="number" name="carage" id="carage" required>
             </label><br>
             <label for="dop">Date of Purchase: 
-                <input type="date" name="dop" id="dop">
+                <input type="date" name="dop" id="dop" required>
             </label><br>
             <label for="password">Password: 
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </label><br>
-            <input type="submit" name="submit" id="">
+			<button type="submit">Submit</button>
         </form>
     </div>
     <script type="text/javascript" src="./script.js">
